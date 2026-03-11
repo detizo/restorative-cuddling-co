@@ -14,7 +14,7 @@ export async function POST(req: Request) {
 
     await resend.emails.send({
       from: "Restorative Cuddling Co. <hello@restorativecuddlingco.com>",
-      to: "justin.g.holman@gmail.com",
+      to: ["hello@restorativecuddlingco.com", "justin.g.holman@gmail.com"],
       subject: `New Application: ${name}`,
       html: `
         <div style="font-family: sans-serif; max-width: 600px; margin: 0 auto; color: #2C2420;">
