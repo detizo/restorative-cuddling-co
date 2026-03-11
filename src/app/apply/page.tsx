@@ -92,9 +92,17 @@ export default function Apply() {
     setStep((s) => Math.max(s - 1, 0));
   }
 
-  function handleSubmit(e: React.FormEvent) {
+  async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
-    // TODO: Wire up to Resend email API for actual submission
+    try {
+      await fetch("/api/apply", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(form),
+      });
+    } catch {
+      // Still show thank-you even if email fails
+    }
     setSubmitted(true);
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
