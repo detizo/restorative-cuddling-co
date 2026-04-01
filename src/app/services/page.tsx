@@ -113,7 +113,7 @@ export default function Services() {
                 <div>
                   <p className="text-sm font-medium mb-1" style={{ color: "var(--teal-deep)", fontFamily: "Cormorant Garamond, serif" }}>The Session</p>
                   <p className="text-sm leading-relaxed" style={{ color: "var(--warm-gray)", fontWeight: 300 }}>
-                    Platonic touch the way it was always meant to feel — natural, unhurried, and safe. We get comfortable, put on some music, and just be. Blankets available. Boundaries are communicated clearly and respected completely. You set the pace; I follow your lead.
+                    Think of it as the world&apos;s most intentional snuggle. Good music, soft blankets, and restorative platonic touch — however that looks for you. Boundaries are clear, communication is open. You set the pace.
                   </p>
                 </div>
                 <div>
