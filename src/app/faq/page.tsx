@@ -59,7 +59,7 @@ const faqs = [
       },
       {
         q: "Is there a travel fee?",
-        a: "No additional fee within the Salt Lake Valley. A $30 travel fee applies for locations outside the Salt Lake Valley, up to 45 miles away. In-home sessions are paid in advance.",
+        a: "A travel fee may apply to visits outside Salt Lake County. In-home sessions are paid in advance.",
       },
       {
         q: "How do I pay?",

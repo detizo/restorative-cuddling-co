@@ -88,42 +88,38 @@ export default function Services() {
             </h2>
           </Reveal>
           <div className="grid md:grid-cols-2 gap-8">
-            {/* Tier 1 */}
+            {/* Session 1 */}
             <Reveal delay={1}>
             <div className="p-8 md:p-10 flex flex-col h-full" style={{ background: "var(--blush)" }}>
-              <p className="text-xs tracking-widest uppercase mb-3" style={{ color: "var(--gold)" }}>Tier 1</p>
               <h3
                 className="text-3xl mb-2"
                 style={{ color: "var(--teal-deep)", fontFamily: "Cormorant Garamond, serif", fontWeight: 300 }}
               >
-                Restorative Session
+                Restorative Cuddle Session
               </h3>
               <p className="text-xl mb-6" style={{ color: "var(--teal)", fontFamily: "Cormorant Garamond, serif" }}>
-                $150 &mdash; 60 minutes
+                $120 &mdash; 60 minutes
               </p>
               <p className="leading-relaxed mb-8" style={{ color: "var(--foreground)", fontWeight: 300 }}>
                 The core experience. You will be met, heard, held, and nourished — from the first moment to the last. Thoughtfully paced so nothing feels rushed, and everything feels intentional.
               </p>
               <div className="space-y-4 mb-8 flex-1">
                 <div>
-                  <p className="text-xs tracking-widest uppercase mb-1" style={{ color: "var(--gold)" }}>~15 min</p>
                   <p className="text-sm font-medium mb-1" style={{ color: "var(--teal-deep)", fontFamily: "Cormorant Garamond, serif" }}>Arrival &amp; Opening</p>
                   <p className="text-sm leading-relaxed" style={{ color: "var(--warm-gray)", fontWeight: 300 }}>
-                    A real check-in, gentle breathwork, and a warm consent conversation.
+                    A check-in and a warm consent conversation.
                   </p>
                 </div>
                 <div>
-                  <p className="text-xs tracking-widest uppercase mb-1" style={{ color: "var(--gold)" }}>~40 min</p>
                   <p className="text-sm font-medium mb-1" style={{ color: "var(--teal-deep)", fontFamily: "Cormorant Garamond, serif" }}>The Session</p>
                   <p className="text-sm leading-relaxed" style={{ color: "var(--warm-gray)", fontWeight: 300 }}>
-                    Restorative platonic touch in a carefully prepared space — curated soundscape, soft lighting, weighted or soft blanket available.
+                    Platonic touch the way it was always meant to feel — natural, unhurried, and safe. We get comfortable, put on some music, and just be. Blankets available. Boundaries are communicated clearly and respected completely. You set the pace; I follow your lead.
                   </p>
                 </div>
                 <div>
-                  <p className="text-xs tracking-widest uppercase mb-1" style={{ color: "var(--gold)" }}>~5 min</p>
                   <p className="text-sm font-medium mb-1" style={{ color: "var(--teal-deep)", fontFamily: "Cormorant Garamond, serif" }}>Closing</p>
                   <p className="text-sm leading-relaxed" style={{ color: "var(--warm-gray)", fontWeight: 300 }}>
-                    A gentle transition. Feet on the floor, a glass of water, a few breaths together, and a brief verbal check-out.
+                    A gentle transition. Feet on the floor, a few breaths together, and a brief verbal check-out.
                   </p>
                 </div>
               </div>
@@ -137,42 +133,38 @@ export default function Services() {
             </div>
             </Reveal>
 
-            {/* Tier 2 */}
+            {/* Session 2 */}
             <Reveal delay={2}>
             <div className="p-8 md:p-10 flex flex-col h-full" style={{ background: "var(--teal-deep)", color: "var(--cream)" }}>
-              <p className="text-xs tracking-widest uppercase mb-3" style={{ color: "var(--gold)" }}>Tier 2 — Returning Clients Only</p>
               <h3
                 className="text-3xl mb-2"
                 style={{ fontFamily: "Cormorant Garamond, serif", fontWeight: 300 }}
               >
-                Deep Restorative Experience
+                Energetic Fascia Release thru Touch
               </h3>
               <p className="text-xl mb-6" style={{ color: "var(--teal-light)", fontFamily: "Cormorant Garamond, serif" }}>
-                $300 &mdash; 120 minutes
+                $150 &mdash; 90 minutes
               </p>
               <p className="leading-relaxed mb-8" style={{ opacity: 0.88, fontWeight: 300 }}>
-                A complete recalibration. Not a longer version of the first session — a full journey with a beginning, middle, and end. More space to arrive, more time to go deep, more room to integrate.
+                Patient, intentional hands-on work for the body and the energy it holds. This session goes deeper than comfort — it moves through tension, releases what&apos;s been held, and gives you time to arrive back in yourself.
               </p>
               <div className="space-y-4 mb-8 flex-1">
                 <div>
-                  <p className="text-xs tracking-widest uppercase mb-1" style={{ color: "var(--gold)" }}>~25 min</p>
-                  <p className="text-sm font-medium mb-1" style={{ fontFamily: "Cormorant Garamond, serif" }}>Arrival &amp; Opening the Space</p>
+                  <p className="text-sm font-medium mb-1" style={{ fontFamily: "Cormorant Garamond, serif" }}>Arrival &amp; Opening</p>
                   <p className="text-sm leading-relaxed" style={{ opacity: 0.78, fontWeight: 300 }}>
-                    Extended heart-to-heart check-in, ceremonial cacao or tea, and a warm consent conversation to set the tone for everything that follows.
+                    A check-in and a warm consent conversation. We talk about where your body is holding tension and where you&apos;d like to begin.
                   </p>
                 </div>
                 <div>
-                  <p className="text-xs tracking-widest uppercase mb-1" style={{ color: "var(--gold)" }}>~70 min</p>
-                  <p className="text-sm font-medium mb-1" style={{ fontFamily: "Cormorant Garamond, serif" }}>Restorative Touch Journey</p>
+                  <p className="text-sm font-medium mb-1" style={{ fontFamily: "Cormorant Garamond, serif" }}>The Work</p>
                   <p className="text-sm leading-relaxed" style={{ opacity: 0.78, fontWeight: 300 }}>
-                    An intentional arc of restorative touch. Music, lighting, blankets, touch — every detail is curated around you and what your body needs. This is a deeper, more personalized session with room to truly settle in.
+                    A full hour of slow, deliberate touch — working gently through layers of fascia, following your body&apos;s signals, staying present with whatever comes up. Tight shoulders, a heavy back, the places you&apos;ve been quietly carrying too much. Unhurried. Responsive. Nothing forced.
                   </p>
                 </div>
                 <div>
-                  <p className="text-xs tracking-widest uppercase mb-1" style={{ color: "var(--gold)" }}>~10 min</p>
                   <p className="text-sm font-medium mb-1" style={{ fontFamily: "Cormorant Garamond, serif" }}>Integration &amp; Closing</p>
                   <p className="text-sm leading-relaxed" style={{ opacity: 0.78, fontWeight: 300 }}>
-                    Slow transition, grounding snack, reflective check-out, a meaningful take-home token, and an optional next-day follow-up note.
+                    Time to land back in yourself — quiet stillness, conversation, or whatever you need. No right way to integrate. We figure that out together.
                   </p>
                 </div>
               </div>
@@ -199,13 +191,13 @@ export default function Services() {
             Where sessions are held
           </h2>
           <p className="text-lg leading-relaxed mb-4" style={{ color: "var(--foreground)", fontWeight: 300 }}>
-            Every session takes place in your space or mine — whichever feels right. I bring the full experience to you: the soundscape, the lighting, the blankets, all of it. Your home becomes the healing room.
+            Every session takes place in your space or mine — whichever feels right. I bring the music and the blankets. You bring yourself. Your home becomes the healing room.
           </p>
           <p className="text-lg leading-relaxed mb-4" style={{ color: "var(--foreground)", fontWeight: 300 }}>
             If you prefer, sessions can also be held in a private, thoughtfully prepared space in the Salt Lake City area — clean, quiet, and set with intention.
           </p>
           <p className="text-sm" style={{ color: "var(--warm-gray)", fontWeight: 300 }}>
-            No additional travel fee within the Salt Lake Valley. A $30 travel fee applies for locations outside the Salt Lake Valley, up to 45 miles away. In-home sessions are paid in advance.
+            Travel fee may apply to visits outside Salt Lake County. In-home sessions are paid in advance.
           </p>
         </div>
       </section>
